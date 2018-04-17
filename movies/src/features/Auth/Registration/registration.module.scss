@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+
+  & > div {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.input {
+  flex-basis: 70%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 100%;
+}
+
+label {
+  flex-basis: 60%;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.button {
+  margin: 10px 0;
+}
+
+.redirect {
+  margin-top: 10px;
+  font-size: 13px;
+  flex-basis: 100%;
+}
+
+.link {
+  margin-left: 30px;
+}
+

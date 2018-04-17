@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`-- Actors -- renders correctly 1`] = `
+<div>
+  <Nav />
+  <Header />
+  <div
+    className={undefined}
+  >
+    <h2
+      className={undefined}
+    >
+      Meat Loaf
+    </h2>
+    <div
+      className={undefined}
+    >
+      <img
+        alt="poster"
+        src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTIzNTQ4MjYyOV5BMl5BanBnXkFtZTcwNzgwNTEzMg@@._V1_UY317_CR6,0,214,317_AL_.jpg"
+      />
+    </div>
+    <div>
+      <span
+        className={undefined}
+      >
+        Biography: 
+      </span>
+      Lorem
+    </div>
+  </div>
+</div>
+`;

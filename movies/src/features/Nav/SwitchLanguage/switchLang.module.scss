@@ -1,0 +1,40 @@
+.selectLang {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid darken(#abc2e8, 15%);
+  border-radius: 5px;
+  position: relative;
+  width: 35px;
+
+  &:hover {
+    & > div {
+      position: absolute;
+      top: 90%;
+      left: 0;
+      background: #abc2e8;
+      width: 35px;
+      z-index: 100;
+    }
+
+    .item {
+      display: block;
+    }
+  }
+}
+
+.item {
+  display: none;
+  flex-basis: 100%;
+  padding: 5px;
+  border-bottom: 1px solid darken(#abc2e8, 10%);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: darken(#abc2e8, 10%);
+  }
+}

@@ -1,0 +1,29 @@
+.rate {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 5px;
+
+  &:hover label {
+    color: #ffd700;
+  }
+}
+
+.star,
+.starActive {
+  display: inline-block;
+  padding: 3px;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 20px;
+  color: #ababab;
+  transition: color 0.2s ease-out;
+  cursor: pointer;
+}
+
+.rate label:hover ~ label {
+  color: #ababab;
+}
+
+.starActive {
+  color: #ffd700;
+}

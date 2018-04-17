@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`-- RatingStars -- renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <label
+    className={undefined}
+    onClick={[Function]}
+  >
+    ★
+  </label>
+  <label
+    className={undefined}
+    onClick={[Function]}
+  >
+    ★
+  </label>
+  <label
+    className={undefined}
+    onClick={[Function]}
+  >
+    ★
+  </label>
+  <label
+    className={undefined}
+    onClick={[Function]}
+  >
+    ★
+  </label>
+  <label
+    className={undefined}
+    onClick={[Function]}
+  >
+    ★
+  </label>
+</div>
+`;

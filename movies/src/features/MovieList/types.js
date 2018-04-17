@@ -1,0 +1,9 @@
+export const INCLIKE = 'INCLIKE';
+export const DECLIKE = 'DECLIKE';
+export const OPEN_MOVIE_DETAILS = 'OPEN_MOVIE_DETAILS';
+export const RECEIVE_MOVIES = 'RECEIVE_MOVIES';
+export const SET_RATING = 'SET_RATING';
+export const RECEIVE_ACTORS = 'RECEIVE_ACTORS';
+export const DELETE_MOVIE = 'DELETE_MOVIE';
+export const SAVE_MOVIE = 'SAVE_MOVIE';
+export const SET_LOGGED_IN = 'SET_LOGGED_IN';
